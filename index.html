@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Women's Boutique </title>
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- own css -->
+  <link rel="stylesheet" href="css/style-1.css">
+
+
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+
+
+  <!-- font design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet">
+
+  <!-- famcybox link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
+  <!-- on scroll animation link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#goTop" style="font-variant: small-caps;">
+  <!-- top news start -->
+  <div class="container-fluid b-g d-flex justify-content-center" id="topbar">
+    <center>
+      <p class="pt-1" data-aos="fade-left" data-aos-delay="250"> get top discount on <b style="color: rgb(62, 28, 3);">
+          Febuary
+          SALE*</b></p>
+    </center>
+  </div>
+  <!-- top news end -->
+
+  <!-- nav bar start-->
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand"> <img src="image/beautique-high-resolution-logo-transparent (1).png"
+          class="weblogo">
+        <!--mobile logo-->
+        <img src="image/png/logo-no-background.png" class="moblogo">
+      </a>
+
+
+      <!-- mobile view toggler -->
+      <!-- ""imp to click button"">>> data-bs-target="#pn" data-bs-toggle="collapse" -->
+      <button class="navbar-toggler" type="button" data-bs-target="#pn" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- menu start-->
+      <div class="navbar-collapse collapse" id="pn">
+        <ul class="navbar-nav ms-auto text-center">
+          <li> <a href="index.html" class="nav-link"> Home</a></li>
+          <li> <a href="#new-in" class="nav-link"> New In</a></li>
+          <li> <a href="#about" class="nav-link"> About</a></li>
+          <li> <a href="#service" class="nav-link">Services </a></li>
+          <li> <a href="#test" class="nav-link"> Testimonials </a></li>
+          <li> <a href="contact.html" class="nav-link"> Contact </a></li>
+        </ul>
+      </div>
+      <!-- menu end-->
+    </div>
+    <!-- container fluid end-->
+  </nav>
+  <!-- nav bar end-->
+
+
+  <!--slider code start-->
+  <div class="carousel slide" data-bs-ride="carousel" id="a">
+
+    <!-- indicator button div -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#a" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#a" data-bs-slide-to="2"></button>
+    </div>
+
+
+    <!-- sliding carusel div -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="image/qin-fan-KfqgYzoH3Vk-unsplash.jpg" class="w-100" alt="...">
+        <div class="carousel-caption mb-5 ">
+          <h1 class="text-center k1"> <b>20% <span class="auto-type"></span> </b> </h1>
+        </div>
+
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+
+        <img src="image/kitti-incedi-HajgFnKAioo-unsplash.jpg" class="w-100" alt="...">
+        <div class="carousel-caption mb-5">
+          <h1 class="text-center k2"> <b> Fashion that won't empty your wallet </b></h1>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="image/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg" class="w-100" alt="...">
+        <div class="carousel-caption mb-5">
+          <h1 class="text-center k3"> <b>A Fashion insta's paradise!</b></h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- slider end carousel -->
+  <br><br>
+
+
+  <!-- new in section start -->
+  <section id="new-in" class="section-padding border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold" data-aos="fade-down" data-aos-delay="50"> New In</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-1.jpg" class="w-100">
+            </div>
+            <!-- icon box 1 -->
+            <a href="image/d-1.jpg" data-fancybox="gallery" class="icon-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+
+          </div>
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-2.jpg" class="w-100">
+            </div>
+            <a href="image/d-2.jpg" data-fancybox="gallery" class="icon-box"> <i
+                class="fa-solid fa-magnifying-glass"></i> </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-8.jpg" class="w-100">
+            </div>
+            <a href="image/d-8.jpg" data-fancybox="gallery" class="icon-box"> <i
+                class="fa-solid fa-magnifying-glass"></i> </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+          </div>
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-5.jpg" class="w-100">
+            </div>
+            <a href="image/d-5.jpg" data-fancybox="gallery" class="icon-box"> <i
+                class="fa-solid fa-magnifying-glass"></i> </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-9.jpg" class="w-100">
+            </div>
+            <a href="image/d-9.jpg" data-fancybox="gallery" class="icon-box"> <i
+                class="fa-solid fa-magnifying-glass"></i> </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+          </div>
+          <div class="new-in-item image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/d-10.jpg" class="w-100">
+            </div>
+            <a href="image/d-10.jpg" data-fancybox="gallery" class="icon-box"> <i
+                class="fa-solid fa-magnifying-glass"></i> </a>
+            <!-- icon box  2 -->
+            <a href="" class="icon-box3 text-center"> <i class="fa-solid fa-heart"> &nbsp;</i>
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- icon box line -->
+            <span class="icon-box2"> Shop the look</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- new in section end -->
+  <br><br>
+
+
+  <!-- icon-image section start -->
+  <section id="service">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-3 px-3 text-center">
+          <img src="image/service-icon/sketch (2).png" class="w-50 p-3">
+          <h6> Customized Design &#10003;</h6>
+        </div>
+        <div class="col-md-3 px-3 text-center">
+          <img src="image/service-icon/gift-box (2).png" class="w-50 p-3">
+          <h6> Surprise on your 1st shopping </h6>
+        </div>
+        <div class="col-md-3 px-3 text-center">
+          <img src="image/service-icon/distribution.png" class="w-50 p-3">
+          <h6> Easy Exchange Policy</h6>
+        </div>
+        <div class="col-md-3 px-3 text-center">
+          <img src="image/service-icon/clothes (2).png" class="w-50 p-3">
+          <h6> Delivering Happiness on Time</h6>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- icon image section end -->
+
+
+  <!-- service section start -->
+  <section>
+    <div class="container-fluid service1">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 mt-5">
+          <div class="service-title ">
+            <h3 class=" display-5 fw-semibold text-light" data-aos="fade-down" data-aos-delay="250"> Get Your Latest
+              Custom <b> *Designer-Dress</b> With Us</h3>
+          </div>
+
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <!-- service section end -->
+
+
+  <!-- gift section start -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <p class=" text-center gift1" data-aos="fade-down" data-aos-delay="50"> Get amazing surprize on your 1st order
+        </p>
+      </div>
+      <div class="row mt-5">
+
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+          <div class="card shadow">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSca_J2e75q4ySF_YeC8veesAVNba7xgFc4ccL1_ohBWCDyXwsv9uGbRCFWj8v9E5EKsqo&usqp=CAU"
+              class="card-img img-fluid">
+            <div class="card-img-overlay">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+
+          </div> <!--  card  end -->
+        </div>
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+          <div class="card shadow">
+            <img src="https://m.media-amazon.com/images/I/61LTJSjq18L._AC_UY300_.jpg" class=" img-fluid">
+            <div class="card-img-overlay">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+
+          </div> <!--  card  end -->
+        </div>
+        <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+          <div class="card shadow">
+            <img
+              src="https://images-static.nykaa.com/media/catalog/product/a/m/amww311_n2.jpg?tr=cm-pad_resize,w-200,h-200"
+              class="w-100 img-fluid">
+            <div class="card-img-overlay">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+
+          </div> <!--  card  end -->
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </section>
+  <br><br>
+  <!-- gift section end -->
+
+
+  <!-- service section start -->
+  <section>
+    <div class="container-fluid service2">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 mt-5">
+          <div class="service-title ">
+            <h3 class=" display-5  text-light" data-aos="fade-down" data-aos-delay="250"> <b> *Promise Delivery... </b>
+              We won’t keep you waiting for long. </h3>
+
+          </div>
+
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <!-- service section end -->
+
+
+  <!-- ABOUT  -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold" data-aos="fade-down" data-aos-delay="50"> About </h1>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 text-center" data-aos="fade-down" data-aos-delay="250">
+        <div class="col-md-4">
+          <div class="team-member image-zoom">
+            <div class="image-zoom-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1615197420681-10d7a10f8e08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJvdXRpcXVlfGVufDB8MXwwfHx8Mg%3D%3D"
+                class="w-100">
+            </div>
+            <div class="team-content">
+              <p class="text-light"> Welcome to Our <b>BEAUTIQUE</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="overflow-auto scroll-div">
+            At our <b>BEAUTIQUE</b>,
+            where style meets sophistication, and every woman finds her unique expression through fashion. we believe
+            that clothing is not just about covering up; it's a form of self-expression, a canvas upon which your
+            personality shines.
+
+            Founded on the principle of empowering women through fashion, we strive to offer more than just clothing; we
+            provide an experience that celebrates individuality, confidence, and elegance. Whether you're seeking the
+            perfect ensemble for a special occasion, upgrading your everyday wardrobe, or simply exploring the latest
+            trends, our dedicated team of stylists is here to assist you in discovering pieces that resonate with your
+            unique sense of style.
+
+            From luxurious fabrics and intricate designs to contemporary silhouettes and classic staples, our
+            collections showcase a blend of international labels and local artisans, ensuring a fusion of global trends
+            with a touch of hometown charm. Every garment in our boutique is handpicked with meticulous attention to
+            quality, comfort, and versatility, promising a seamless transition from day to night, from the office to the
+            weekend getaway.
+
+            Beyond offering exquisite fashion finds, we pride ourselves on cultivating a warm and welcoming atmosphere,
+            where every visitor is treated like family. Whether you're a fashion enthusiast or a novice explorer, we
+            invite you to step into our boutique and immerse yourself in a world of style, sophistication, and endless
+            possibilities.
+
+            Beyond offering exquisite fashion finds, we pride ourselves on cultivating a warm and welcoming atmosphere,
+            where every visitor is treated like family. Whether you're a fashion enthusiast or a novice explorer, we
+            invite you to step into our boutique and immerse yourself in a world of style, sophistication, and endless
+            possibilities.
+
+        
+
+          </div>
+          <!-- <div class="team-content">  </div> -->
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-member image-zoom">
+            <div class="image-zoom-wrap">
+              <img src="image/nelson-ndongala-L61SMiypnkw-unsplash.jpg" class="w-100">
+            </div>
+            <div class="team-content">
+              <p class="text-light">
+                Thank you for choosing us <br>
+                Warm regards,<br>
+                <b> Kritika</b><br>
+                Founder, <b>BEAUTIQUE</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <!-- about end -->
+
+
+  <!-- reviews container start-->
+  <section id="test">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold" data-aos="fade-down" data-aos-delay="50"> Customer Reviews </h1>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- Bootstrap Carousel for Reviews -->
+        <div id="customerReviews" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Review Items -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="star-rating mb-2">
+                      <!-- Star Icons -->
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p> "I recently purchased a dress from BEAUTIQUE , and I couldn't be happier with my experience. The staff was incredibly friendly and helpful, and the quality of the dress exceeded my expectations. I received so many compliments when I wore it to a party. I'll definitely be coming back for more!"</p>
+                    <p class="text-muted">-  Shweta Malik</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="star-rating mb-2">
+                      <!-- Star Icons -->
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <p>"I stumbled upon this fashion BEAUTIQUE while walking around the neighborhood, and I'm so glad I did! The boutique has a fantastic selection of unique pieces that you won't find elsewhere. I receive a beautiful gift that I absolutely love. Highly recommended!"</p>
+                    <p class="text-muted">- Riya Singh</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="star-rating mb-2">
+                      <!-- Star Icons -->
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"I was looking for a special gift for my sister's birthday and decided to visit BEAUTIQUE. The staff help me find the perfect gift, taking the time to understand my sister's style and preferences. The gift wrapping was also beautifully done. My sister loved her present! Thank you for the personalized attention."</p>
+                    <p class="text-muted">- Hridya Mehta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add more review items as needed -->
+          </div>
+          <!-- Slider Controls -->
+          <a class="carousel-control-prev" href="#customerReviews" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customerReviews" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- reviews container end-->
+  <br> <br> <br>
+
+
+
+  <!-- contact container start-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold" data-aos="fade-down" data-aos-delay="50"> Get In Touch </h1>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center"> Receive our latest updates about our products and promotions.</h4>
+
+
+          <div class="input-group mb-3 mt-5">
+            <input type="text" class="form-control" placeholder="Your Email" aria-label=""
+              aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section> <br><br>
+  <!-- contact container end-->
+
+
+
+  <!-- footer start-->
+  <footer class="footer text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mt-5">
+          <h5 class="mb-4 ">Follow Us</h5>
+          <a href="" class="text-light fs-5"><i class="fab fa-facebook-f shine"></i></a> &emsp;
+          <a href="" class="text-light fs-5"><i class="fab fa-twitter shine"></i></a> &emsp;
+          <a href="" class="text-light fs-5"><i class="fab fa-instagram shine "></i></a>
+          <!-- Add more social media icons/links as needed -->
+        </div>
+        <div class="col-lg-3 mt-5">
+          <h5 class="mb-4">Contact </h5>
+          <p> <span class="text-muted">Address:</span> <br> Near Hanuman Mandir, Station Road <br> Bhopal (M.P.)</p>
+          <p> <span class="text-muted">Phone:</span> -91 777-8888-999</p>
+          <p><span class="text-muted">Email:</span> info@beautique.com </p>
+        </div>
+        <div class="col-lg-3 mt-5 px-">
+          <h5 class="mb-4"> Information</h5>
+          <p> <a href="#about" class="op"> About Us</a></p>
+          <p> <a href="#new-in" class="op"> New In</a></p>
+          <p> <a href="#service" class="op"> Services</a></p>
+          <p> <a href="policy.html" class="op"> Privacy Policy </a></p>
+          <p> <a href="policy.html" class="op">Terms & Conditions </a></p>
+
+        </div>
+
+        <div class="col-lg-3 mt-5 pt-5">
+          <img src="image/beautique-high-resolution-logo-transparent (1).png" alt="Boutique Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col">
+          <p class="text-center fw-bold text-muted">© [2024] BEAUTIQUE. All rights reserved.</p>
+          <p class="text-center fw-bold "> Designed By: Kritika</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end-->
+
+
+
+
+  <!-- to top -->
+  <div id="goTop">
+    <a href="#topbar" class="top fs-2" id="goTopBtn"> <i class="fa-solid fa-circle-chevron-up"></i> </a>
+  </div>
+
+
+  <!-- bootstrap jscript link -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- fancybox js link -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+  <!-- on scroll link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+  <!-- own js link -->
+  <script src="main1.js"></script>
+</body>
+
+</html>
